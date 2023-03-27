@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="plugin.video.RomyM3U" version="1.96" name="[COLORaqua]RomyM3U[/COLOR]" provider-name="romy">
+<requires>    		
+    	<import addon="script.module.resolveurl"/>
+	    <import addon="script.module.requests"/>	
+		<import addon="script.module.six"/>	
+		
+		<import addon="script.module.web-pdb" />
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<summary lang="es">...doar un script...</summary>
+		<description lang="es"></description>
+		<website>https://github.com/</website>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+		<disclaimer lang="es">The author of this addon makes not responsible for the use of it</disclaimer>
+	<assets>
+        <icon>icon.jpg</icon>  
+        <fanart>fanart.jpg</fanart>
+    </assets>        
+		<language>en</language>
+	</extension>	
+	
+</addon>
